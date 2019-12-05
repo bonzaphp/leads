@@ -1,0 +1,24 @@
+{
+    "name": "bonza/leads",
+    "description": "广点通，百度，头条线索请求",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/bonzaphp/leads.git",
+    "authors": [
+        {
+            "name": "bonza",
+            "email": "y.shi.guo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "bonza\\leads\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
